@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=width-device, initial scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Astro-Weight Calculator</title>
+    <div id="background">
+      <h1>Astro-Weight Calculator</h1>
+      <link href="https://fonts.googleapis.com/css?family=Russo+One" rel="stylesheet">
+      <link href="https://fonts.googleapis.com/css?family=Gudea" rel="stylesheet">
+      <link href="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.4/jquery.min.js"></script>
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery.min.js"></script>
+      <script src="http://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+      <link rel="stylesheet" href="styles.css">
+
+  </head>
+
+  <body>
+
+    <div id="weightSelector">
+      <form class="form-inline">
+        <div class="form-group">
+          <label for="userWeight">Weight</label>
+          <input type="number" class="form-control" id="userWeight" placeholder="0">
+        </div>
+        <!-- select a planet - dropdown -->
+        <div class="form-group">
+          <label for="selectPlanet">Select Planet</label>
+          <select class="form-control" id="selectPlanet">
+            <option value="Sun">Sun</option>
+            <option value="Mercury">Mercury</option>
+            <option value="Venus">Venus</option>
+            <option value="Earth">Earth</option>
+            <option value="Moon">Moon</option>
+            <option value="Mars">Mars</option>
+            <option value="Jupiter">Jupiter</option>
+            <option value="Saturn">Saturn</option>
+            <option value="Uranus">Uranus</option>
+            <option value="Neptune">Neptune</option>
+            <option value="Pluto">Pluto</option>
+          </select>
+        </div>
+      </div>
+      <button type="button" id="calculateWeight" class="btn btn-primary">Calculate</button>
+      <p id="output"></p>
+      </form>
+      <script type="text/javascript" src="index.js"></script>
+
+  </body>
+</div>
+
+</html>

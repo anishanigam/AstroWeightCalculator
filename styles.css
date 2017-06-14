@@ -1,0 +1,43 @@
+h1 {
+  text-align: center;
+  padding: 5%;
+  font-size: 3em;
+  color: black;
+  margin-top: -10px;
+}
+
+body {
+  margin: 50px 50px 50px 50px;
+  text-align: center;
+}
+
+#calculateWeight:active {
+  /*background-color: red;*/
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+#calculateWeight {
+  padding: 10px 15px;
+  font-size: 2em;
+  outline: none;
+  color: #fff;
+  border: none;
+  border-radius: 15px;
+  display: block;
+  margin: auto;
+  width: 40%;
+  margin-top: 5%;
+}
+
+p {
+  margin-top: 5%;
+  font: italic 2m, sans-serif;
+  color: black;
+}
+
+#weightSelector {
+  color: black;
+  letter-spacing: 2px;
+  text-shadow: 2px 2px 5px black;
+}
